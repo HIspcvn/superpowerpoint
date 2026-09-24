@@ -1,0 +1,25 @@
+name: Validate skills and tools
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Validate repository metadata and links
+        run: python scripts/validate_repo.py
+      - name: Test portable tools
+        run: python -m unittest discover -s tests -v
+      - name: Inspect shipped example
+        run: python skills/reviewing-powerpoint/scripts/inspect_pptx.py examples/demo/output/superpowerpoint-demo.pptx --expect-slides 4 --require-chart 2 --require-table 3

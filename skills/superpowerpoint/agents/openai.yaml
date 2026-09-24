@@ -1,0 +1,4 @@
+interface:
+  display_name: "Superpowerpoint"
+  short_description: "Plan, build, edit, and verify PowerPoint decks"
+  default_prompt: "Use $superpowerpoint to turn my brief into an editable, visually checked PowerPoint presentation."

@@ -1,0 +1,20 @@
+{
+  "name": "superpowerpoint",
+  "version": "0.1.0",
+  "description": "Composable skills for planning, building, editing and reviewing editable PowerPoint presentations.",
+  "author": {
+    "name": "Superpowerpoint contributors"
+  },
+  "skills": "./skills/",
+  "license": "MIT",
+  "keywords": ["powerpoint", "presentations", "slides", "skills"],
+  "interface": {
+    "displayName": "Superpowerpoint",
+    "shortDescription": "Plan, build and review editable PowerPoint decks.",
+    "longDescription": "Six composable skills cover briefs, storyboards, design, editable authoring, careful revisions and evidence-based review. Includes a local PPTX inspector. A presentation engine is required to create or render slides.",
+    "developerName": "Superpowerpoint contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $superpowerpoint to create or improve my PowerPoint presentation."
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editing PowerPoint"
+  short_description: "Edit existing decks while preserving their features"
+  default_prompt: "Use $editing-powerpoint to make these changes while preserving the presentation's template and editable objects."

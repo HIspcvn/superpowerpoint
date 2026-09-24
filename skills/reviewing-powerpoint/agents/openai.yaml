@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reviewing PowerPoint"
+  short_description: "Inspect deck structure, visuals, and compatibility"
+  default_prompt: "Use $reviewing-powerpoint to review this deck, inspect every rendered slide, and report the validation evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Building PowerPoint"
+  short_description: "Build editable decks and verify their exported slides"
+  default_prompt: "Use $building-powerpoint to build an editable PowerPoint from this storyboard and inspect its rendered slides."

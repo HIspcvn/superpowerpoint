@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planning PowerPoint"
+  short_description: "Turn presentation goals into a sourced storyboard"
+  default_prompt: "Use $planning-powerpoint to turn my material into a clear presentation brief and slide-by-slide storyboard."

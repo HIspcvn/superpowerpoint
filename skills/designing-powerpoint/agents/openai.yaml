@@ -1,0 +1,4 @@
+interface:
+  display_name: "Designing PowerPoint"
+  short_description: "Create readable slides that follow the visual brief"
+  default_prompt: "Use $designing-powerpoint to define a consistent visual system for this presentation and preserve its brand."
